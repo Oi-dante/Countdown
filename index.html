@@ -13,40 +13,45 @@
 </head>
 
 <body></body>
-    <img src="./assets/top-image.svg" alt="" width="100%">
+    <img src="./assets/top-image.svg" alt="" >
     <main>
         <section class="container">
 
             <div class="timer-container">
                 <h1>READY TO LAUNCH IN...</h1>
 
-                <div class="timer">
-
+                <div class="grid | timer">
                     <div class="times">
-                        <small>Dias</small>
-                        <h2 id="days"></h2>
+                        <small>Days</small>
+                        <h2 id="days" class="days"></h2>
                     </div>
-                    <span>:</span>
+                    <span class="timer-separator">:</span>
 
                     <div class="times">
-                        <small>Horas</small>
-                        <h2 id="hours"></h2>
+                        <small>Hours</small>
+                        <h2 id="hours" class="hours"></h2>
                     </div>
-                    <span>:</span>
+                    <span class="timer-separator">:</span>
 
                     <div class="times">
-                        <small>Minutos</small>
-                        <h2 id="minutes"></h2>
+                        <small>Minutes</small>
+                        <h2 id="minutes" class="minutes"></h2>
                     </div>
-                    <span>:</span>
+                    <span class="timer-separator">:</span>
 
                     <div class="times">
-                        <small>Segundos</small>
-                        <h2 id="seconds"></h2>
+                        <small>Seconds</small>
+                        <h2 id="seconds" class="seconds"></h2>
                     </div>
                 </div>
-                <p>Inscreva-se para saber mais sobre o lançamento</p>
-                <button id='btn-open-nmodal' class="btn btn-submit">Inscreva-se</button>
+								
+                <p>Sign up to learn more about the launch</p>
+
+
+                <button id='change-time' class="btn btn-submit">Change Date:</button>
+                
+                <input type="datetime-local" id="calendar">
+
             </div>
 
             <div class="rocket-image">
