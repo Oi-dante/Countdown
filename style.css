@@ -15,8 +15,8 @@
 
     --ff--primary:'Poppins', sans-serif;
 
-		--fs-primary: clamp(1rem, 4vw + 1rem, 5rem);
-		--fs-secondary: clamp(1rem, 1.5vw + 1rem, 5rem);
+    --fs-primary: clamp(1rem, 4vw + 1rem, 5rem);
+    --fs-secondary: clamp(1rem, 1.5vw + 1rem, 5rem);
 }
 
 body {
@@ -64,7 +64,7 @@ h1 {
 .timer-container {
     max-width: 100%;
     
-	display: flex;
+    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
